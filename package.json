@@ -1,10 +1,7 @@
 {
   "name": "react-authapp-example",
   "version": "0.0.0",
-  "homepage": "react-authapp-example/",
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
