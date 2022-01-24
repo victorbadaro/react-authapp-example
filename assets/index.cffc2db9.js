@@ -48,7 +48,7 @@ import{j as f,r as a,s as h,N as g,L as m,O as y,R as v,a as d,W as k,B as w,b a
     }
 `;function A(){const[n,i]=a.exports.useState(""),[c,u]=a.exports.useState(""),{authenticated:t,signIn:o}=p();if(t)return e(g,{to:"/profile"});function s(l){l.preventDefault(),o()}return e(j,{children:r("form",{onSubmit:s,children:[e("input",{type:"email",placeholder:"E-Mail",onChange:l=>i(l.target.value),value:n}),e("input",{type:"password",placeholder:"Password",onChange:l=>u(l.target.value),value:c}),e("button",{type:"submit",children:"Login"})]})})}function E(){return e("h1",{children:"Profile"})}function O(){return e("h1",{children:"Products"})}function R(){return r(x,{children:[e("h1",{children:"Error 404"}),e("p",{children:"Page not found! =("})]})}const B=h.header`
     margin-bottom: 24px;
-    height: 80px;
+    height: 70px;
     background-color: #222;
 
     & > div {
