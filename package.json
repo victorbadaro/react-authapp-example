@@ -1,6 +1,7 @@
 {
   "name": "react-authapp-example",
   "version": "0.0.0",
+  "homepage": "react-authapp-example/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
