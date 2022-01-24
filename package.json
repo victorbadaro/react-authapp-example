@@ -1,7 +1,9 @@
 {
   "name": "react-authapp-example",
   "version": "0.0.0",
+  "homepage": "https://victorbadaro.github.io/react-authapp-example",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -17,6 +19,7 @@
     "@types/react-dom": "^17.0.10",
     "@types/styled-components": "^5.1.19",
     "@vitejs/plugin-react": "^1.0.7",
+    "gh-pages": "^3.2.3",
     "typescript": "^4.4.4",
     "vite": "^2.7.2"
   }
